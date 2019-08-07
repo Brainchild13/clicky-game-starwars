@@ -1,7 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import "./navbar.css";
 
-const Navbar extends Component {
+class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-default navbar-fixed-top">
