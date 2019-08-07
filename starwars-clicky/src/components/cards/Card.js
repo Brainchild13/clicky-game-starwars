@@ -4,7 +4,7 @@ import "./card.css";
 const Card = props => (
     <div className="card" onClick={props.imageClick}>
         <div className="img-container">
-            <img alt={props.image.replace(".jpg", "")} src={requestAnimationFrame("../../images/" + props.image)} />
+            <img alt={props.image.replace(".jpg", "")} src={require("../../images/" + props.image)} />
         </div>
     </div>
 );
