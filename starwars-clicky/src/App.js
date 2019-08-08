@@ -66,7 +66,7 @@ class App extends Component {
       <div>
         <Jumbotron />
         <Navbar score={this.state.score} />
-        <div className="wrapper">
+        <div className="wrappers">
           {this.state.starwars.map(starwars => (
             <Card imageClick={this.imageClick}
             id={starwars.id}
